@@ -145,4 +145,14 @@ html {
 .container .top-content {
   background-color: gray;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .top-content .banner h1 {
+  background-color: blue;
+}
+.container .top-content .banner img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
 }

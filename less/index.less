@@ -148,8 +148,21 @@ html {
 .container {
   width: 800px;
   margin: 0 auto;
+
   .top-content {
     background-color: gray;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    .banner {
+      h1 {
+        background-color: blue;
+      }
+      img {
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+      }
+    }
   }
 }
