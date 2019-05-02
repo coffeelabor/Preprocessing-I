@@ -146,7 +146,7 @@ html {
   display: flex;
   justify-content: flex-end;
 }
-.container .top-content nav a {
+.container .top-content nav .mixinOne {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.8rem;
@@ -187,6 +187,8 @@ html {
   width: 140px;
   border-radius: 10%;
   font-size: 1.8rem;
+}
+.container .top-content .gray-box button .mixinTwo {
   background-color: gray;
   color: white;
 }
