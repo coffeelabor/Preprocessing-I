@@ -142,3 +142,57 @@ html {
   width: 800px;
   margin: 0 auto;
 }
+.container .top-content nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .top-content nav a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+  flex-grow: 0.1;
+  align-self: flex-end;
+  text-decoration: none;
+}
+.container .top-content .gray-box {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container .top-content .gray-box .banner {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.container .top-content .gray-box .banner img {
+  width: 30%;
+  height: auto;
+}
+.container .top-content .gray-box .banner h1 {
+  font-size: 5rem;
+}
+.container .top-content .gray-box .banner h2 {
+  font-size: 3rem;
+}
+.container .top-content .gray-box p {
+  font-size: 1.6rem;
+  padding-bottom: 30px;
+}
+.container .top-content .gray-box button {
+  height: 40px;
+  width: 140px;
+  border-radius: 10%;
+  font-size: 1.8rem;
+  background-color: gray;
+  color: white;
+}
+.container .middle-content {
+  display: flex;
+}
+.container .bottom-content ul {
+  display: flex;
+}
