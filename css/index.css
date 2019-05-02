@@ -145,7 +145,7 @@ html {
 .container .top-content {
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  background-color: gray;
 }
 .container .top-content .right-box {
   display: flex;
@@ -166,7 +166,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
+  background-color: skyblue;
 }
 .container .top-content .right-box .banner img {
   width: 100px;
@@ -180,4 +180,10 @@ html {
 }
 .container .top-content .left-box h1 {
   font-size: 3rem;
+}
+.container .middle-content {
+  display: flex;
+}
+.container .bottom-content ul {
+  display: flex;
 }
